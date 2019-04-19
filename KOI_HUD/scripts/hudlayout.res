@@ -466,16 +466,6 @@
 		"DashHeight" "4"
 		"BorderThickness" "88"
 	}
-
-	HudCrosshair
-	{
-		"fieldName" "HudCrosshair"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-	}
-
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
@@ -1501,5 +1491,37 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+	"CrossHairNormal"
+    {
+        "controlName"   "CExLabel"
+        "fieldName"     "CrossHairNormal"
+        "visible"       "1"
+        "enabled"       "1"
+        "zpos"          "1"
+        "xpos"          "c-19"
+        "ypos"          "c-14"
+        "wide"          "25"
+        "tall"          "25"
+        "font"          "CrossHairNormal28"
+        "labelText"     "+"
+        "fgcolor"       "BlankWhite"
+        "textAlignment" "center"
+    }
+	"CrossHairRequest"
+    {
+        "controlName"   "CExLabel"
+        "fieldName"     "CrossHairRequest"
+        "visible"       "0"
+        "enabled"       "0"
+        "zpos"          "1"
+        "xpos"          "c-32"
+        "ypos"          "c-25"
+        "wide"          "50"
+        "tall"          "50"
+        "font"          "CrossHairRequest28"
+        "labelText"     "+"
+        "fgcolor"       "PitchBlack"
+        "textAlignment" "center"
+    }
 }
 

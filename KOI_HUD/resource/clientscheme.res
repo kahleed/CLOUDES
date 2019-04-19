@@ -19,6 +19,7 @@ Scheme
 	Colors
 	{
 		// base colors
+		"PitchBlack"        "0 0 0 255"
 		"HealGreen"         "105 255  90  255"
 		"GoodOrange"        "255 83 0 255"
 		"BlankWhite"        "255 255 255 255"
@@ -2874,6 +2875,39 @@ Scheme
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
+		"CrossHairNormal28"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+		"CrossHairRequest28"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"28"
+				"weight"	"500"
+				"additive"	"10"
+				"outline" "1"
+			}
+		}
+		"CrossHairRequest30"
+		{
+			"1"
+			{
+				"name"		"Crosshairs"
+				"tall"		"30"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
 		"EconFontSmall"
 		{
 			"1"
@@ -5927,5 +5961,10 @@ Scheme
 		 "font"	"resource/fonts/Heavitas"
 		 "name" "Heavitas"
         }
+		"9" 
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
 	}	
 }
